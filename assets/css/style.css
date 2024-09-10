@@ -287,10 +287,6 @@ label {
     cursor: pointer;
 }
 
-#submit:active {
-    transform: scale(1.1);
-}
-
 svg {
     position: relative;
     top: 1px;
