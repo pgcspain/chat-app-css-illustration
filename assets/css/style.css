@@ -255,6 +255,10 @@ label {
     bottom: 10px;
 }
 
+#input-box::selection {
+    background: transparent;
+}
+
 #text-input {
     background-color: white;
     border-radius: 50px;
