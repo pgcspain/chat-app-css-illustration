@@ -1,0 +1,41 @@
+@media screen and (min-width: 768px) {
+
+    #item-left {
+        position: fixed;
+        top: 290px;
+        left: 6%;
+    }
+
+    #item-right {
+        top: 290px;
+        right: -30%;
+    }
+
+    #chat-screen {
+        top: 159px;
+        left: 13%;
+    }
+
+    #bottomtext {
+        left: 50%;
+        top: 35%;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    #bottomtext {
+        text-align: left;
+        width: 445px;
+        display: block;
+        left: 40vw
+    }
+
+    #bottomtext h1 {
+        margin-bottom: 24px;
+    }
+
+    #item-right {
+        top: 290px;
+        right: -15%;
+    }
+}
